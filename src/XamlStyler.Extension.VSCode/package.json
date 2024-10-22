@@ -7,15 +7,22 @@
     "vscode": "^1.94.0"
   },
   "categories": [
-    "Other"
+    "Formatters"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:AXAML"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "languages": [
       {
-        "command": "xamlstyler.helloWorld",
-        "title": "Hello World"
+        "id": "AXAML",
+        "aliases": [
+          "Avalonia XAML"
+        ],
+        "extensions": [
+          "axaml"
+        ]
       }
     ]
   },
