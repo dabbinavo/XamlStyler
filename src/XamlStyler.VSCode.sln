@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler", "XamlStyler\XamlStyler.csproj", "{5B8CC737-F1F6-421B-AFA3-8BF37B70AD7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlStyler.Console", "XamlStyler.Console\XamlStyler.Console.csproj", "{6FE20F58-E81E-4747-B6B7-642B83AB66F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B8CC737-F1F6-421B-AFA3-8BF37B70AD7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8CC737-F1F6-421B-AFA3-8BF37B70AD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8CC737-F1F6-421B-AFA3-8BF37B70AD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8CC737-F1F6-421B-AFA3-8BF37B70AD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE20F58-E81E-4747-B6B7-642B83AB66F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE20F58-E81E-4747-B6B7-642B83AB66F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE20F58-E81E-4747-B6B7-642B83AB66F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE20F58-E81E-4747-B6B7-642B83AB66F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
